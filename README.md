@@ -1,4 +1,4 @@
-# Issue testing MUI dialog without trantions
+# Issue testing MUI dialog without transitions
 
 Reproduction repo for an issue when testing MUI dialog with the transitions disabled.
 
