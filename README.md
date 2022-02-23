@@ -6,7 +6,7 @@ Reproduction repo for an issue when testing MUI dialog with the transitions disa
 
 When disabling React Transition Group transitions in jest, the `aria-hidden="true"` keeps showing in the (fake) DOM after opening and closing the dialog. This prevents React Testing Library from selecting elements based on accessibility.
 
-This repo is based on MUI [Create React App example with TypeScript](https://github.com/mui/material-ui/tree/master/examples/create-react-app-with-typescript), modified as described bellow:
+This repo is based on MUI [Create React App example with TypeScript](https://github.com/mui/material-ui/tree/master/examples/create-react-app-with-typescript), modified as described below:
 * added AlertDialog.tsx based on the [Alerts example](https://mui.com/components/dialogs/#alerts) from MUI documentation
 * added AlertDialog.test.tsx to test that the dialog can be opened and then closed, letting the open button reachable again
 * added React Testing Library
